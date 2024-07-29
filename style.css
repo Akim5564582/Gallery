@@ -1,0 +1,30 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+
+    outline: 3px solid red;
+}
+.menu{
+    list-style: none;
+    justify-content: center;
+    display:flex ;
+    justify-content: space-around;
+}
+.gallery-item{
+    width: 350px; ;
+}
+.gallery-list {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.gallery-item {
+    width: 350px;
+    height: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
